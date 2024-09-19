@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Contenedor principal */
+.main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: #c6c0c0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Encabezados */
+h1 {
+  color: #0e7e82;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #16a085;
+  font-size: 1.5em;
+}
+
+/* Navegación */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #17cabb;
+  margin: 0 0 20px;
+  border-radius: 8px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #34495e;
+  border-radius: 5px;
+}
+
+/* Imágenes */
+img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  /* margin: 20px auto; */
+  border-radius: 8px;
+}
+.example {
+  display: flex;
+  justify-content: space-between;
+}
